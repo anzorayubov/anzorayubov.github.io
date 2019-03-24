@@ -1,0 +1,220 @@
+body{
+	background:url(img/fon.png);
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+.wrapper{
+	margin:0 auto;
+	max-width: 1600px;
+	position: relative;
+
+}
+.logo{
+	margin-left: 300px;
+}
+
+.kartinka{
+	background:url(img/kartinka.png) no-repeat center top;
+	width:1600px;
+	height: 1100px;
+	text-align: center;
+	color:#fff;
+	padding-top: 50px;
+
+
+
+
+}
+
+.postav_ssilku{
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+
+
+.zarabotay {
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.mac{
+	position: absolute;
+	top: 300px;
+	left: 450px;
+}
+.fransh{
+	position: absolute;
+	top: 460px;
+	left: 663px;
+	font-size:1.1em;
+}
+
+.text{
+	width: 55%;
+	position: absolute;
+	top: 730px;
+	left: 400px;
+	font-size: 1.2em;
+}
+.text li{
+	margin-top: 5px;
+}
+.text p {
+	margin-bottom: -20px;
+}
+.seraya_plashka{
+	position: absolute;
+	top: 900px;
+	left: 400px;
+	font-family: "Arial";
+	text-align: center;
+	width: 800px;
+ 	height: 125px;
+	background-color: lightgray;
+}
+.seraya_plashka p {
+	font-size: 1.1em;
+}
+
+.box-2{
+	display: flex;
+	margin-left: 430px;
+	position: relative;
+	font-size:1.1em;
+	margin-top: -130px;
+}
+.box-2 h2{
+	margin-bottom: -5px;
+	m
+
+}
+.box1{
+	margin-right: 100px;
+	width: 350px;
+
+}
+.box2 h2{
+	margin-bottom: 80px;
+}
+.box1 li{
+	margin-bottom: 10px;
+}
+.box1 h2{
+	margin-left: 30px;
+}
+.box2{
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	line-height: 10px;
+}
+.box2 .p_green {
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(30, 160, 30);
+  font-weight: bold;
+	
+
+}
+.forma{
+	margin-left: 370px;
+ 	background-color: #EEE8AA;
+	width: 50em;
+	height: 22em;
+	font-size: 1.1em;
+}
+.forma ul{
+	list-style-type: none;
+	list-style-position: outside;
+	margin-top: 40px;
+}
+.forma li{
+	padding: 15px;
+	margin-left: 80px;
+
+}
+
+
+.forma label{
+	display: inline-block;
+	width: 250px;
+
+}
+.forma input{
+	width: 400px;
+	height:30px;
+	text-align: center;
+}
+.forma h2{
+	margin-left: 395px;
+	padding-top: 30px;
+}
+.forma p span{
+	font-weight: bold;
+}
+.forma p {
+	margin-top: 40px;
+	line-height: 1.2em;
+}
+
+/* Стили для button*/
+button.submit {
+	margin-left: 255px;
+
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+
+.sloy{
+	margin-left: 270px;
+	margin-top: 100px;
+	background-color: black;
+	width: 68%;
+	height: 50px;
+}
+
+.sloy img{
+	margin-top: 13px;
+	margin-left: 13px;
+}
+
