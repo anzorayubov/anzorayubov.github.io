@@ -1,0 +1,458 @@
+body{
+	color: #4d4d4d;
+	font-family: "open sans" , arial , sans-serif;
+	font-size: 16px;
+	background-color:
+}
+
+.wrapper{
+	margin:0 auto;
+	max-width: 1600px;
+
+}
+
+h1{
+	/* Style for "Best Creat" */
+
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 50px;
+font-weight: 300;
+text-transform: uppercase;
+
+}
+
+h1 .lg{
+	/* Text style for "Design / B" */
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: -4.2px;
+line-height: 80px;
+font-size: 70px;
+
+}
+
+h6{
+	color: #0d0d0d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+/* buttons*/
+.btn{
+	display: inline-block;
+	vertical-align: middle;
+	height: 42px;
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	font-family: "open sans",arial;
+	font-weight: 600;
+	padding: 10px 35px;
+	padding-top: 8px;
+	margin-top: 100px;
+
+}
+.btn:hover{
+	background-color: #f39c12;
+	color: white;
+	border-color:#f39c12; 
+}
+
+header{
+	position: absolute;
+	top:84px;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.header-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.logo a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	color: white:;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+
+
+}
+.menu{
+	list-style:none;
+	display: flex;
+}
+.menu_item:after{
+	content: '//';
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	position: absolute;
+	top:0;
+	left: 100%;
+	margin-left: 25px;
+}
+.menu_item:last-child:after{
+	display: none;
+}
+.menu_link{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+
+}
+.menu_link:hover{
+	color: black;
+}
+.menu_item{
+	margin-left:90px;
+	position: relative;
+}
+
+
+
+/* banner*/
+.banner{
+	background: url(../img/banner.png) no-repeat center top ;
+	height: 1100px;
+	padding-top: 450px;
+	padding-bottom: 280px;
+	text-align: center;
+
+}
+
+.heading{
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.heading h2{
+	/* Style for "About" */
+width: 105px;
+height: 21px;
+color: #0d0d0d;
+font-family: "Open Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 25px;
+text-transform: uppercase;
+padding-top: 5px;
+}
+.heading p{
+	/* Style for "Proin grav" */
+width: 1170px;
+height: 40px;
+color: #4d4d4d;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-transform: uppercase;
+margin-left: 15px;
+padding-left: 5px;
+border-left: 8px solid #f39c12;
+
+}
+.about-wrap{
+	display: flex;
+	align-items: flex-start;
+	border-bottom: 2px solid gray;
+	padding-bottom: 40px;
+}
+..about-wrap-img{
+	z-index: 1;
+	position: relative;
+}
+.about-wrap-img #img_39{
+z-index: 2;
+width: 60px;
+position: absolute;
+left: 1980px;
+top: 1390px;
+}
+
+.about-wrap_content-icon{
+	/* Style for "Ellipse 2" */
+width: 125px;
+flex: none;
+height: 125px;
+border: 2px solid #f39c12;
+background-color: #ffffff;
+border-radius: 50%;
+margin-right: 29px;
+position: relative;
+}
+.about-wrap_content-icon img{
+
+position: absolute;
+left: 43px;
+top: 42px;
+
+}
+.about-wrap_content{
+	display: flex;
+	align-items: flex-start;
+	margin-right: 60px;
+	flex: 1;
+}
+.about-wrap_content-text h6{
+	margin-bottom: 25px;
+}
+.about-text{
+	color: #e74c3c;
+	font-family: "Open Sans Light";
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+.box-skills{
+	display: flex;
+	margin-top: 120px;
+
+}
+
+.box-skills-item-content{
+	margin-left: 70px;
+}
+
+/*bars*/
+
+.bars-line{
+	background: #e7e7e7;
+	height: 10px;
+
+}
+
+.bars-line div{
+	background-color: #f39c12;
+	height: 10px;
+	
+}
+.bars{
+	margin-top: 40px;
+}
+
+.bars-title{
+	margin-bottom: 5px;
+}
+
+.sipm{
+	height: 1100px;
+	width: 1600px;
+	background: url(../img/layers.png) no-repeat center top ;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 60px;
+	padding-top: 200px;
+}
+
+
+.tire{
+	background-color: #f39c12;
+	width: 50px;
+	height: 5px;
+	border-radius: 10px;
+	position: absolute;
+	left: 777px;
+	top: 300px;
+
+}
+.JohnMaeda{
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+
+
+
+
+.heading1{
+	position: absolute;
+	display: flex;
+	margin-top: 50px;
+	top:2900px;
+	left: 900px;
+}
+.heading1 h2{
+	/* Style for "About" */
+width: 80px;
+height: 21px;
+color: #0d0d0d;
+font-family: "Open Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 25px;
+text-transform: uppercase;
+padding-top: 5px;
+}
+.heading1 p{
+	/* Style for "Proin grav" */
+width: 1050px;
+height: 40px;
+color: #4d4d4d;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-transform: uppercase;
+margin-left: 15px;
+padding-left: 5px;
+border-left: 8px solid #f39c12;
+
+}
+.ikonki-osn{
+	display: flex;
+
+}
+
+.krug{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-color: gray;
+	background-color: #e8f8f4;
+	position: relative;
+}
+.krug img{
+position: absolute;
+top: 66px;
+left: 70px;
+}
+
+.block-osn{
+	position: relative;
+	padding-right: 200px;
+	font-size: 1.2em;
+	margin-top: -80px;
+}
+.block-osn:first-child{
+	margin-left: 50px;
+}
+
+.john{
+	font-weight: bold;
+	font-size: 1.3em;
+	position: absolute;
+	left: 35px;
+}
+.founder{
+	color: gray;
+	font-size: 0.8em;
+	position: absolute;
+	left: 58px;
+	top: 224px;
+}
+.morbi{
+	display: block;
+	width: 200px;
+	color: gray;
+	position: absolute;
+	top: 250px;
+	text-align: center;
+	font-size: 1.2em;
+}
+.ikonochki{
+	margin-left: 15px;
+	display: flex;
+	padding-top: 175px;
+}
+.ikonochki img{
+
+	padding-left: 15px;
+}
+.topchik{
+	margin-top: 100px;
+
+}
+.kruzhok{
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 160px;
+	width: 170px;
+	height: 170px;
+	border: 2px solid #f39c12;
+	margin-top: 50px;	
+}
+
+.kruzhok:first-child{
+	margin-left: -10px;
+}
+.kruzhok img{
+	margin-top: 60px;
+}
+.topchik1{
+	margin-top: -280px;
+	margin-left: 200px;
+	width: 1200px;
+
+}
+.topchik1 h2{
+	margin-right: 5px;
+}
+.trikruga{
+	display:flex;
+	margin-left:280px;
+
+
+}
+.kruzhochki{
+	width: 105px;
+	height: 105px;
+	border: 2px solid #f39c12;
+	border-radius: 50%;
+	margin-left: 200px;
+	position: relative;
+	margin-bottom: 40px;
+
+}
+.kruzhochki h2{
+	font-size: 1.3em;
+	position: absolute;
+	top: 110px;
+	left: 5px;
+}
+.kruzhochki p{
+	width: 250px;
+	font-size: 1.2em;
+	position: absolute;
+	top: 140px;
+	left: -70px;
+	text-align: center;
+}
+.kruzhochki img{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+.liniya{
+	border: 2px solid #D3D3D3;
+	margin-top: 190px;
+	
+}
