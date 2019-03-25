@@ -293,11 +293,12 @@ top: 42px;
 
 
 .heading1{
-	position: absolute;
+	
 	display: flex;
-	margin-top: 50px;
-	top:2900px;
-	left: 900px;
+	padding-top: -100px;
+	padding-bottom: 200px;
+	padding-left: 200px;
+	
 }
 .heading1 h2{
 	/* Style for "About" */
