@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="widget js-counter">
+	<div>
+		Click counter:
+		<span class="js-counter-value">0</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+	let counterWidget = document.querySelector('.js-counter');
+
+	counterWidget.addEventListener('click', ()=>{
+		//должны увеличить счетчик
+
+		//нашли span коотрый нужно увеличивать
+		let counterValueEl = document.querySelector('.js-counter-value');
+
+		var currentValue = counterValueEl.innerHTML;
+	
+		// инкрементируем 
+		currentValue++
+
+		//записываем увеличенное знаение в span
+		counterValueEl.innerHTML= currentValue;
+
+	});
+
+
+	
+
+
+</script>
+
+
+
+</body>
+</html>
