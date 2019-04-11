@@ -92,21 +92,6 @@ left: 60px;
 .arrow-down:hover{
 	cursor:pointer;
 }
-.circle{
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
-	border-radius: 50%;
-	position: relative;
-	margin-left: 730px;
-	margin-top: 330px;
-	cursor: pointer;
-}
-.circle img{
-	position: absolute;
-	top: 16px;
-	left: 17px;
-}
 
 /* box-2 */
 
@@ -155,7 +140,7 @@ left: 60px;
 }
 .element-1{
 	width: 450px;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	height: 650px;
 	border-radius: 50px;
 
@@ -163,7 +148,7 @@ left: 60px;
 
 .element-2{
 	width: 450px;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	height: 650px;
 	border-radius: 50px;
 	margin-left: 10px;
@@ -171,7 +156,7 @@ left: 60px;
 }
 .element-3{
 	width: 450px;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	height: 650px;
 	border-radius: 50px;
 	margin-left: 10px;
@@ -221,18 +206,73 @@ left: 60px;
 
 
 
+/* box-3 */
 
+.box-3{
+	position: relative;
+	height: 50vh;
+	background: url(img/background-box-3.png);
+	text-align: center;
+	align-items: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
 
-
-.Rounded_Rectangle_2 {
-  border-radius: 30px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 81.88px 10.12px rgba(204, 204, 223, 0.71);
-  position: absolute;
-  left: 740px;
-  top: 1151px;
-  width: 440px;
-  height: 648px;
-  z-index: 85;
 }
+.box-3 h4{
+	position: absolute;
+	top: 100px;
+}
+.box-3 h1 {
+	position: absolute;
+	top: 150px;
+	font-size: 3em;
+}
+.box-3 .element-buttons{
+	display: flex;
+	margin-top: 220px;
+	margin-left: -120px;
+}
+.box-3 .element-button{
+	color: #fff;
+}
+
+
+
+.footer{
+	padding-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 10vh;
+	color: gray;
+	border-bottom: 2px solid lightgray;
+}
+.footer .menu a{
+	color: gray;
+}
+.footer .menu{
+
+}
+.footer .menu .element-button{
+	margin-top: -10px;
+	text-align: center;
+	margin-left: -10px;
+}
+.footer .menu a:hover{
+	color: #6e45e2;;
+}
+
+.p-footer{
+	color: gray;
+	font-size: 0.8em;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
 
