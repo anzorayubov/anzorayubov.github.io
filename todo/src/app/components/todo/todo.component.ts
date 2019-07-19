@@ -14,7 +14,8 @@ export class TodoComponent implements OnInit {
     id: '',
     title: '',
     text: '',
-    complete: false
+    complete: false,
+    date: '' ,
   };
 
   constructor() {
@@ -29,11 +30,14 @@ export class TodoComponent implements OnInit {
   // Add task
   addTodo(form){
 
+    const now = new Date() ;
+
     const newTask = {
       id: String(this.todos.length + 1 ) ,
       title: this.todo.title,
       text: this.todo.text,
-      complete: false
+      complete: false,
+      date: now,
 
     };
     this.todos.unshift(newTask);

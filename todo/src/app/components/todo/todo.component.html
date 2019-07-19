@@ -1,5 +1,4 @@
 
-
 <div class="container">
 <!-- Form -->
 
@@ -40,7 +39,7 @@
   <div class="card mt-5" [ngClass]="{'text-white bg-success': task.complete }">
     <div class="card-body" >
       <h5 class="card-title" >{{task.title}}</h5>
-      <p class="card-text">{{task.text}}</p>
+      <p class="card-text">{{task.text}} <br> <span>{{task.date | date:"dd:MM:yyyy HH:mm"}}</span></p>
       <button class="btn"
 
               [ngClass]="{'btn-success': !task.complete, 'btn-primary': task.complete }"
