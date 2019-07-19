@@ -1,1 +1,63 @@
-<p>todo works!</p>
+
+
+<div class="container">
+<!-- Form -->
+
+  <div class="row">
+    <div class="col-6 m-auto">
+      <div class="card mb-5">
+        <div class="card-body">
+
+          <form class="form" (ngSubmit)="addTodo(form)" #form='ngForm'>
+
+            <div class="form-group">
+              <label for="title"> Название </label>
+              <input type="text" class="form-control" id="title" [(ngModel)]="todo.title" name="title" autocomplete='off'>
+            </div>
+
+            <div class="form-group">
+              <label for="Text"> Текст </label>
+              <input type="text" class="form-control" id="Text" [(ngModel)]="todo.text" name="text" autocomplete='off'>
+            </div>
+
+            <button [disabled]="!todo.text || !todo.title" class="btn btn-primary" > Add task </button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--  Alert -->
+  <div class="alert alert-info" [hidden]="todos.length"  style="text-align: center">Empty list</div>
+
+<div class="row">
+
+<div class="col-4" *ngFor="let task of todos; let i = index; trackBy:identify">
+
+  <div class="card mt-5" [ngClass]="{'text-white bg-success': task.complete }">
+    <div class="card-body" >
+      <h5 class="card-title" >{{task.title}}</h5>
+      <p class="card-text">{{task.text}}</p>
+      <button class="btn"
+
+              [ngClass]="{'btn-success': !task.complete, 'btn-primary': task.complete }"
+
+              (click)="task.complete = !task.complete" >
+
+            {{ task.complete ? 'Uncomplite' : 'Complite' }} task
+
+      </button>
+
+      <button class="btn btn-danger btn-border" (click)="deleteTask(task.id)"> Delete task </button>
+
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
