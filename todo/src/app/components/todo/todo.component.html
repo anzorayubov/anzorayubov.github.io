@@ -36,7 +36,7 @@
 
 <div class="col-4" *ngFor="let task of todos; let i = index; trackBy:identify">
 
-  <div class="card mt-5" [ngClass]="{'text-white bg-success': task.complete }">
+  <div class="card mt-5 adaptive" [ngClass]="{'text-white bg-success': task.complete }">
     <div class="card-body" >
       <h5 class="card-title" >{{task.title}}</h5>
       <p class="card-text">{{task.text}} <br> <span>{{task.date | date:"dd:MM:yyyy HH:mm"}}</span></p>

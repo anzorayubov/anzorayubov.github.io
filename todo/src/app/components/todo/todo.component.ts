@@ -15,7 +15,7 @@ export class TodoComponent implements OnInit {
     title: '',
     text: '',
     complete: false,
-    date: '' ,
+    date: ''
   };
 
   constructor() {
@@ -40,9 +40,10 @@ export class TodoComponent implements OnInit {
       date: now,
 
     };
+    // @ts-ignore
     this.todos.unshift(newTask);
 
-    form.reset()
+    form.reset();
 
   };
 
