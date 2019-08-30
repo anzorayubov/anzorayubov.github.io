@@ -1,0 +1,18 @@
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  margin: 0 2rem;
+  text-align: center;
+  width: 200px;
+}
+i{
+  cursor: pointer;
+  border: 1px solid lightgray;
+  box-shadow: 0px 0px 1px 1px whitesmoke;
+  border-radius: 50%;
+}
+i:hover{background: whitesmoke;}
+i:active{background: lightgray;}
