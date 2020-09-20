@@ -94,10 +94,21 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: 600; }
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
     .colorlib-nav #colorlib-logo a {
       position: relative;
-      color: #fff; }
+      color: #fff;
+      margin-left: 10px;
+    }
+  #logo {
+    width: 50px;
+    /*left: -43px;*/
+    /*top: -20px;*/
+    /*position: absolute;*/
+  }
   @media screen and (max-width: 768px) {
     .colorlib-nav .menu-1 {
       display: none; } }
