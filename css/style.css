@@ -746,6 +746,10 @@ h1, h2, h3, h4, h5, h6, figure {
       #colorlib-testimony .owl-carousel .owl-dots {
         display: none !important; } }
 
+.bc-gray {
+  background-color: darkcyan;
+}
+
 #colorlib-counter {
   position: relative; }
 
