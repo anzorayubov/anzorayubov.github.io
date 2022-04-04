@@ -8,8 +8,6 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta name="author" content=""/>
-
-    <!-- Facebook and Twitter integration -->
     <meta property="og:title" content=""/>
     <meta property="og:image" content=""/>
     <meta property="og:url" content=""/>
@@ -19,40 +17,18 @@
     <meta name="twitter:image" content=""/>
     <meta name="twitter:url" content=""/>
     <meta name="twitter:card" content=""/>
-
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700" rel="stylesheet">
-
-    <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
-    <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="css/icomoon.css">
-    <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <!-- Flexslider  -->
     <link rel="stylesheet" href="css/flexslider.css">
-
-    <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- Flaticons  -->
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body>
 
@@ -85,7 +61,7 @@
     <div id="colorlib-contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 animate-box">
+                <div class="col-md-12 animate-box">
                     <h2>Контактная информация</h2>
                     <div class="row contact-info-wrap">
                         <div class="col-md-6">
@@ -102,84 +78,51 @@
                         </div>
                     </div>
                 </div>
-                <!--					<div class="col-md-10 col-md-offset-1 animate-box">-->
-                <!--						<h2>Get In Touch</h2>-->
-                <!--						<form action="#">-->
-                <!--							<div class="row form-group">-->
-                <!--								<div class="col-md-6">-->
-                <!--									<label for="fname">First Name</label>-->
-                <!--									<input type="text" id="fname" class="form-control" placeholder="Your firstname">-->
-                <!--								</div>-->
-                <!--								<div class="col-md-6">-->
-                <!--									<label for="lname">Last Name</label>-->
-                <!--									<input type="text" id="lname" class="form-control" placeholder="Your lastname">-->
-                <!--								</div>-->
-                <!--							</div>-->
-
-                <!--							<div class="row form-group">-->
-                <!--								<div class="col-md-12">-->
-                <!--									<label for="email">Email</label>-->
-                <!--									<input type="text" id="email" class="form-control" placeholder="Your email address">-->
-                <!--								</div>-->
-                <!--							</div>-->
-
-                <!--							<div class="row form-group">-->
-                <!--								<div class="col-md-12">-->
-                <!--									<label for="subject">Subject</label>-->
-                <!--									<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">-->
-                <!--								</div>-->
-                <!--							</div>-->
-
-                <!--							<div class="row form-group">-->
-                <!--								<div class="col-md-12">-->
-                <!--									<label for="message">Message</label>-->
-                <!--									<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>-->
-                <!--								</div>-->
-                <!--							</div>-->
-                <!--							<div class="form-group">-->
-                <!--								<input type="submit" value="Send Message" class="btn btn-primary">-->
-                <!--							</div>-->
-
-                <!--						</form>		-->
-                <!--					</div>-->
             </div>
         </div>
     </div>
     <div class="container">
-        <h3>Мы находимся тут</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.556075924099!2d68.73926235120987!3d38.57718919493271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d223f96257a9%3A0xe3fca91b6f155545!2z0YPQuy4g0KjQsNC80YHQuCAyMywg0JTRg9GI0LDQvdCx0LUsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2str!4v1648396752527!5m2!1sru!2str"
-                style="border:0; width: 100%; height: 34em" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row">
+            <div class="col-md-6 animate-box">
+                <h2>Свяжитесь с нами</h2>
+                <form action="#">
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <label for="fname">Имя</label>
+                            <input type="text" id="fname" class="form-control" placeholder="Ваше имя">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" class="form-control" placeholder="Ваш Email">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label for="message">Сообщение</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                                      placeholder="..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-primary">
+                    </div>
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Cargo-line">
+                    <input type="hidden" name="admin_email" value="inbox@cargoline.tj">
+                    <input type="hidden" name="form_subject" value="Request from CargoLine site">
+                    <!-- END Hidden Required Fields -->
+                </form>
+            </div>
+            <div class="map col-md-6 animate-box">
+                <h3>Мы находимся тут</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.556075924099!2d68.73926235120987!3d38.57718919493271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d223f96257a9%3A0xe3fca91b6f155545!2z0YPQuy4g0KjQsNC80YHQuCAyMywg0JTRg9GI0LDQvdCx0LUsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2str!4v1648396752527!5m2!1sru!2str"
+                        style="border:0; width: 100%; height: 34em" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
-
-    <!--		<div id="map" class="colorlib-map"></div>-->
-    <!--		<div id="colorlib-subscribe">-->
-    <!--			<div class="overlay"></div>-->
-    <!--			<div class="container">-->
-    <!--				<div class="row">-->
-    <!--					<div class="col-md-12 col-md-offset-0 colorlib-heading animate-box">-->
-    <!--						<h2>Sign up for a Newsletter</h2>-->
-    <!--						<div class="row">-->
-    <!--							<div class="col-md-7">-->
-    <!--								<p>Enter your email address to get the latest news, events and special offers delivered right to your inbox.</p>-->
-    <!--							</div>-->
-    <!--							<div class="col-md-5">-->
-    <!--								<form class="form-inline qbstp-header-subscribe">-->
-    <!--									<div class="row">-->
-    <!--										<div class="col-md-12 col-md-offset-0">-->
-    <!--											<div class="form-group">-->
-    <!--												<input type="text" class="form-control" id="email" placeholder="Enter your email">-->
-    <!--												<button type="submit" class="btn btn-primary">Subscribe</button>-->
-    <!--											</div>-->
-    <!--										</div>-->
-    <!--									</div>-->
-    <!--								</form>-->
-    <!--							</div>-->
-    <!--						</div>-->
-    <!--					</div>-->
-    <!--				</div>-->
-    <!--			</div>-->
-    <!--		</div>-->
     <footer id="colorlib-footer" role="contentinfo">
         <div class="container">
             <div class="row row-pb-md">
@@ -215,6 +158,7 @@
 <script src="js/magnific-popup-options.js"></script>
 <script src="js/jquery.countTo.js"></script>
 <script src="js/main.js"></script>
+<script src="js/mail.js"></script>
 
 </body>
 </html>
