@@ -2049,4 +2049,5 @@ input[type="text"] {
 .d-flex-s-between {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
