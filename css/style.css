@@ -243,15 +243,6 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff;
 }
 
-.title-btn {
-    transition: font-size .5s, border-bottom-color .5s;
-    border-bottom: 1px solid rgba(1,1,1, 0);
-}
-
-.title-btn:hover {
-    border-bottom: 1px solid #FFCD00;
-}
-
 .colorlib-nav ul li.btn-cta a span {
     background: #ffcd00;
     padding: 4px 10px;
