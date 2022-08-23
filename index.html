@@ -1,19 +1,275 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE HTML>
+<html>
+<head>
     <meta charset="utf-8">
-    <title>Cookies</title>
-    <base href="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CargoLine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="manifest" href="manifest.webmanifest">
-    <meta name="theme-color" content="#1976d2">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <style type="text/css">@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-    <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v128/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimum-scale=1">
-<style>.mat-typography{font:400 14px/20px Roboto,Helvetica Neue,sans-serif;letter-spacing:normal}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}</style><link rel="stylesheet" href="styles.5c50b1a4fb966153.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.5c50b1a4fb966153.css"></noscript></head>
-<body class="mat-typography">
-<app-root></app-root>
-<noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.850d5db7b6a4a432.js" type="module"></script><script src="polyfills.60a0c388aa47adc1.js" type="module"></script><script src="main.fb094cc7248add3d.js" type="module"></script>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
 
-</body></html>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <!--    <script type="text/javascript" >-->
+    <!--       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};-->
+    <!--       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})-->
+    <!--       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");-->
+
+    <!--       ym(88440361, "init", {-->
+    <!--            clickmap:true,-->
+    <!--            trackLinks:true,-->
+    <!--            accurateTrackBounce:true-->
+    <!--       });-->
+    <!--    </script>-->
+    <!--    <noscript><div><img src="https://mc.yandex.ru/watch/88440361" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
+    <!-- /Yandex.Metrika counter -->
+
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <!--    <link rel="manifest" href="./images/site.webmanifest">-->
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+<div class="colorlib-loader"></div>
+<div id="page">
+    <nav class="colorlib-nav" role="navigation">
+        <div class="top-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div id="colorlib-logo">
+                            <a href="index.html"><img id="logo" src="images/logo-2.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-right menu-1">
+                        <ul>
+                            <li class="active"><a href="index.html">Главная</a></li>
+                            <li><a href="pages/about.html">О нас</a></li>
+                            <li><a href="pages/services.html">Услуги</a></li>
+                            <li><a href="pages/contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <aside id="colorlib-hero">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background-image: url(images/шох-1.png); background-position-y: top;">
+                    <div class="overlay"></div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+                                <div class="slider-text-inner text-center">
+                                    <a href="pages/truck.html"><h1>Мы создаем городскую среду будущего!</h1></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(images/шох-2.png); background-position-y: -210px;">
+                    <div class="overlay"></div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+                                <div class="slider-text-inner text-center">
+                                    <a href="pages/sea.html">
+                                        <h1>Шоханшох</h1>
+                                        <span>Наш проект Premium класса</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(images/house.jpeg); background-position-y: center;">
+                    <div class="overlay"></div>
+                    <div class="container-fluids">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+                                <div class="slider-text-inner text-center">
+                                    <a href="pages/train.html"><h1>Строительство под ключ</h1></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(images/img-1567.jpeg); background-position-y: top;">
+                    <div class="overlay"></div>
+                    <div class="container-fluids">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+                                <div class="slider-text-inner text-center">
+                                    <a href="pages/avia.html"><h1>Строим проекты любой сложности</h1></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </aside>
+
+    <div id="colorlib-services" class="colorlib-light-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 animate-box colorlib-heading animate-box">
+                    <h2><span class="thin">предлагаем <b>Услуги</b></span></h2>
+                    <p>«Пойтахт Инвест» — это самостоятельная строительная организация, специализирующаяся на
+                        строительстве, отделке, реконструкции и проектировании.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-6">
+                <div class="row">
+                    <div>
+                        <div class="animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <img src="images/icon-4.png" width="50">
+                                </span>
+                                <div class="desc">
+                                    <a href="pages/truck.html"><h3>Инновации</h3></a>
+                                    <p>При проектировании мы используем только лучшие решения и передовые технологии,
+                                        будь то сырье для строительства или архитектура здания.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <img src="images/icon-3.png" width="50">
+                                </span>
+                                <div class="desc">
+                                    <a href="pages/avia.html"><h3>Уникальность</h3></a>
+                                    <p>Каждый наш проект – это продуманная архитектурная формула. Мы не просто реализуем
+                                        и совершенствуем объекты недвижимости, а формируем новый стиль жизни.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="wrap">
+                        <div class="animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <img src="images/icon-2.png" width="50">
+                                </span>
+                                <div class="desc">
+                                    <a href="pages/sea.html"><h3>Забота</h3></a>
+                                    <p>Мы заботимся о максимально комфортной и безопасной жизни наших покупателей и
+                                        после продажи.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <img src="images/icon-1.png" width="50">
+                                </span>
+                                <div class="desc">
+                                    <a href="pages/train.html"><h3>Качество</h3>
+                                    </a>
+                                    <p>Наша цель не объем строительства, а его качество. Все этапы строительства
+                                        проходят стандартизацию и соответствуют требованиям рынка недвижимости. Каждый
+                                        покупатель получает гарантию на свое жилье.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="colorlib-footer" role="contentinfo">
+        <div class="container">
+            <div class="row row-pb-md">
+                <!--                <div class="col-md-3 colorlib-widget">-->
+                <!--                    <h4>коротко о нас</h4>-->
+                <!--                    <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live-->
+                <!--                        in Bookmarksgrove right at the coast of the Semantics</p>-->
+                <!--                    <p>-->
+                <!--                    <ul class="colorlib-social-icons">-->
+                <!--                        <li><a href="#"><i class="icon-twitter"></i></a></li>-->
+                <!--                        <li><a href="#"><i class="icon-facebook"></i></a></li>-->
+                <!--                        <li><a href="#"><i class="icon-linkedin"></i></a></li>-->
+                <!--                        <li><a href="#"><i class="icon-dribbble"></i></a></li>-->
+                <!--                    </ul>-->
+                <!--                    </p>-->
+                <!--                </div>-->
+
+                <div class="col-md-3 col-md-push-1">
+                    <h4>Контакты</h4>
+                    <ul class="colorlib-footer-links">
+                        <li>ООО "Карголайн" <br> Адрес: ул. Шамси 23/3<br>
+                            Душанбе, Таджикистан 734003
+                        </li>
+                        <li><a href="tel://+992935113355"><i class="icon-phone"></i>+992 93 511 3355</a></li>
+                        <li><a href="mailto:logistics@cargoline.tj"><i class="icon-envelope"></i>logistics@cargoline.tj</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
