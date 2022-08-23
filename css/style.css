@@ -125,9 +125,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #logo {
     width: 400px;
-    /*left: -43px;*/
-    /*top: -20px;*/
-    /*position: absolute;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -137,6 +134,17 @@ h1, h2, h3, h4, h5, h6, figure {
     #logo {
         width: 250px;
     }
+    .slides li {
+        background-position-y: top!important;
+    }
+}
+
+.bg-pos-cntr {
+    background-position-y: center;
+}
+
+.bg-pos-top {
+    background-position-y: center;
 }
 
 .colorlib-nav ul {
