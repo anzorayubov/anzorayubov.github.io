@@ -51,6 +51,8 @@
 		$('#colorlib-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
 		$('#colorlib-offcanvas').append(clone2);
+		$('#colorlib-offcanvas ul a').css({'font-size': '20px', 'margin' : '6px'});
+		$('#colorlib-offcanvas ul li').css({'margin' : '6px'});
 
 		$('#colorlib-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
 		$('#colorlib-offcanvas')
