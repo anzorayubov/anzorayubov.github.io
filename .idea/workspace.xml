@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a36aabf4-1e42-4b62-a77b-1762d8225efd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/image-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image-4.png" afterDir="false" />
+    <list default="true" id="a36aabf4-1e42-4b62-a77b-1762d8225efd" name="Changes" comment="add new images">
+      <change afterPath="$PROJECT_DIR$/images/Arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/avia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/avia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sea.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/train.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/train.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/truck.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/truck.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +100,16 @@
       <workItem from="1661860663112" duration="5312000" />
       <workItem from="1661873218592" duration="651000" />
       <workItem from="1662027550979" duration="10000" />
-      <workItem from="1662198639621" duration="1349000" />
+      <workItem from="1662198639621" duration="2375000" />
     </task>
+    <task id="LOCAL-00001" summary="add new images">
+      <created>1662200103707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662200103707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add new images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
