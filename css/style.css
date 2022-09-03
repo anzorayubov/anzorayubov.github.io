@@ -52,6 +52,7 @@ body {
 
 .width-100 {
     width: 100%;
+    /*margin: 0 auto;*/
 }
 
 a {
@@ -1812,7 +1813,6 @@ input[type="text"] {
     z-index: 2001;
     border-bottom: none !important;
 }
-
 @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
         display: block;
