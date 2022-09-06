@@ -56,6 +56,10 @@ body {
     /*margin: 0 auto;*/
 }
 
+.width-80 {
+    width: 80%;
+}
+
 a {
     color: #FFCD00;
     -webkit-transition: 0.5s;
