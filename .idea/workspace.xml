@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a36aabf4-1e42-4b62-a77b-1762d8225efd" name="Changes" comment="add arrow icon">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shohanshoh.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shohanshoh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,9 @@
       <workItem from="1662454937156" duration="7000" />
       <workItem from="1662457093211" duration="3650000" />
       <workItem from="1662632372304" duration="2000" />
-      <workItem from="1662726613393" duration="3059000" />
+      <workItem from="1662726613393" duration="3863000" />
+      <workItem from="1662973431915" duration="121000" />
+      <workItem from="1663061173625" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="add new images">
       <created>1662200103707</created>
