@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a36aabf4-1e42-4b62-a77b-1762d8225efd" name="Changes" comment="add arrow icon">
-      <change afterPath="$PROJECT_DIR$/files/shohanshoh.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/shohanshoh.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/shohanshoh.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sea.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shohanshoh.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shohanshoh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/train.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/train.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/truck.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/truck.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +106,7 @@
       <workItem from="1663763130462" duration="3000" />
       <workItem from="1664282118566" duration="531000" />
       <workItem from="1664357494447" duration="12000" />
-      <workItem from="1664538638808" duration="985000" />
+      <workItem from="1664538638808" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="add new images">
       <created>1662200103707</created>
